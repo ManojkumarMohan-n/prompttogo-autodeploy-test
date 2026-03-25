@@ -136,7 +136,7 @@ const App: React.FC = () => {
       answer: "Submitted prompts enter a pending queue and are reviewed by admins."
     },
     {
-      question: "Is my data secure?",
+      question: "Is my datas are secure?",
       answer: "Yes. Authentication, Row-Level Security (RLS), rate limiting, and input validation are implemented."
     }
   ];
