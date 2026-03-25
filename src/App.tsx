@@ -399,7 +399,7 @@ const PROMPTS: Prompt[] = [
     category: "Marketing",
     desc: "Generate 10 high-engagement hooks for social media content based on psychology.",
     img: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800",
-    model: "ChatGPT, Grok, Meta",
+    model: "",
     content: "Act as a viral marketing expert. Analyze the following topic: [TOPIC]. Create 10 hooks using the 'Curiosity Gap' and 'Negative Constraint' frameworks to stop the scroll and drive clicks.",
     useCase: "Ideal for Content Creators and Growth Hackers."
   },
