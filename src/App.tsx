@@ -108,10 +108,10 @@ const App: React.FC = () => {
   const formCreatedRef = useRef<boolean>(false);
 
   const colors: ColorPalette = {
-    bg: '#C0C0C0', 
-    primary: '#0070FF', 
-    accent: '#FACC15',
-    white: '#FFFFFF',
+    bg: '#b83636', 
+    primary: '#3c587e', 
+    accent: 'rgb(250, 204, 21)',
+    white: '#97757527',
     textMain: '#000000', 
     textMuted: 'rgba(255, 255, 255, 0.7)',
     boxBg: '#001D3D',
