@@ -33,7 +33,7 @@ interface Prompt {
 
 interface PricingPlan {
   name: string;
-  priceText: string;
+  priceText: sting;
   description: string;
   features: string[];
   cta: string;
