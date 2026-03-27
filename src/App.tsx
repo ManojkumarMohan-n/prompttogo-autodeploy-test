@@ -98,7 +98,7 @@ declare global {
 }
 
 const App: React.FC = () => {
-  const [searchQuery, setSearchQuery] = 
+  const [searchQuery, setSearchQuery] = useState<string>('');
   const [isVisible, setIsVisible] = useState<VisibilityState>({});
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
   const [isFAQOpen, setIsFAQOpen] = useState<boolean>(false);
