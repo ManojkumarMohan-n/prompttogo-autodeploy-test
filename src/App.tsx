@@ -33,7 +33,7 @@ interface Prompt {
 
 interface PricingPlan {
   name: string;
-  priceText: sting;
+  priceText: string;
   description: string;
   features: string[];
   cta: string;
@@ -98,7 +98,7 @@ declare global {
 }
 
 const App: React.FC = () => {
-  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [searchQuery, setSearchQuery] = 
   const [isVisible, setIsVisible] = useState<VisibilityState>({});
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
   const [isFAQOpen, setIsFAQOpen] = useState<boolean>(false);
